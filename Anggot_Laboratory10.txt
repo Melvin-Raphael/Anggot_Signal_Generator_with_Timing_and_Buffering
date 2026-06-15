@@ -1,0 +1,60 @@
+Configuration	Anggot_Laboratory10
+STM32CubeMX 	6.16.1
+Date	05/22/2026
+MCU	STM32F407ZGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC	DAC_OUT1	DAC_OUT1	PA4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	GPIO_Output	PERIOD
+26	PC0	GPIO_Input	SW1
+40	PA4	DAC_OUT1	
+58	PE7	GPIO_Output	LED_RED
+60	PE9	GPIO_Output	LED_GREEN
+142	PE1	GPIO_Output	SAMPLE
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC	DAC_OUT1	DAC_OUT1	PA4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	GPIO_Output	PERIOD
+26	PC0	GPIO_Input	SW1
+40	PA4	DAC_OUT1	
+58	PE7	GPIO_Output	LED_RED
+60	PE9	GPIO_Output	LED_GREEN
+142	PE1	GPIO_Output	SAMPLE
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Anggot_Laboratory10
+Project Folder : C:\Users\Admin\OneDrive\Documents\BCA143 LABORATORY\Anggot_Laboratory10
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.28.3
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
